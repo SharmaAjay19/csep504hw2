@@ -30,6 +30,7 @@ public class DivByZeroVisitor extends BaseTypeVisitor<DivByZeroAnnotatedTypeFact
     private boolean errorAt(BinaryTree node) {
         // A BinaryTree can represent any binary operator, including + or -.
         // TODO
+        
         return false;
     }
 
